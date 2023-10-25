@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+ .u-section-1 {
+  background-image: url("../img/thrfd-min.jpg");
+  background-position: 50% 50%;
+}
+#navbar{
+  position: fixed;
+  width: 100%;
+  left: 7rem;
+}
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -17%;
+  margin-bottom: 35px;
+}
+#navbar li{
+  list-style: none;
+  padding: 3px 11px;
+  margin: 6px 10px;
+  font-size: 20px;
+}
+#navbar li a{
+  padding: 2px;
+  margin: 2px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 23px;
+}
+#navbar li a:hover{
+  color: rgb(215, 22, 163);
+  transition: all 0.37s ease-in;
+}
+.nav-img img{
+  height: 46px;
+  /* filter: invert(); */
+  margin: 2px;
+}
+.btn{
+  width: 11%;
+    margin-left: 1059px;
+    cursor: pointer;
+   text-decoration: none;
+   background-color: black;
+   position: fixed;
+   border-radius: 20px;
+   margin-top: -2px;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 18px;
+
+}
+.btn a{
+  color: white;
+}
+.btn1{
+  width: 11%;
+  margin-left: -7%;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: black;
+  position: fixed;
+  border-radius: 20px;
+  margin-top: -19px;
+  font-family: 'Yeon Sung', cursive;
+font-size: 20px;
+}
+.btn1 a{
+  color: white;
+}
+body::before{
+  content: "";
+  background:url('../img/sven-kucinic-Z0KjmjxUsKs-unsplash.jpg') no-repeat center center/cover;
+  height: 113%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.9;
+  
+}
+.u-section-1 .u-sheet-1 {
+  min-height: 929px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 242px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 440px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 44px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 26px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-style: italic;
+  margin: 26px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none none solid;
+  font-style: italic;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 42px auto 0 0;
+}
+
+.u-section-1 .u-image-1 {
+  background-image: url("../img/1864260_medium2000.png");
+  min-height: 220px;
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-image-2 {
+  background-image: url("../img/sport-outdoor_144627-38331.jpg");
+  min-height: 220px;
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-image-3 {
+  background-image: url("../img/g2097ee9e3bdef82a33c8da248c1852c0b62237516dff3e9201fbfb94aa1958adf7f333f0fdfeb50ec2afca763b6586c81433f174ca7d0b270e3bbb83b109c30f_1280.jpg");
+  min-height: 220px;
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-image-4 {
+  background-image: url("../img/g0b74dfce8a22ac49be4692948184072845c8278f4fe694da25e2c5fd3fc293a30494602e4d92768589f1aea215a25395aefb50dbf10f58819ee8854037b8a4d5_1280.jpg");
+  min-height: 220px;
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-image-5 {
+  background-image: url("../img/g5d8c781f5931ff84d9edf16eb8500d26cc3b70b77eef11dc73c9f5bdda4b4c0c9170d7ae49ca42a858dd9502e894225a69256156db3ace1823de70cd548ceb73_1280.png");
+  min-height: 220px;
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-image-6 {
+  background-image: url("../img/g18497d883470192d4f1b3e4f13adf7f6cbbeb3ace9991fa0f7e9e5e39d5283894bd88fd26a55a1165f0f683548092936725ab2c1557294127616a70f4adc5601_1280.jpg");
+  min-height: 220px;
+  background-position: 50% 50%;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 689px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 363px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 181px;
+  }
+
+  .u-section-1 .u-image-2 {
+    min-height: 181px;
+  }
+
+  .u-section-1 .u-image-3 {
+    min-height: 181px;
+  }
+
+  .u-section-1 .u-image-4 {
+    min-height: 181px;
+  }
+
+  .u-section-1 .u-image-5 {
+    min-height: 181px;
+  }
+
+  .u-section-1 .u-image-6 {
+    min-height: 181px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 3362px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 734px;
+  }
+
+  .u-section-1 .u-image-2 {
+    min-height: 734px;
+  }
+
+  .u-section-1 .u-image-3 {
+    min-height: 734px;
+  }
+
+  .u-section-1 .u-image-4 {
+    min-height: 734px;
+  }
+
+  .u-section-1 .u-image-5 {
+    min-height: 734px;
+  }
+
+  .u-section-1 .u-image-6 {
+    min-height: 734px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 2630px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 551px;
+  }
+
+  .u-section-1 .u-image-2 {
+    min-height: 551px;
+  }
+
+  .u-section-1 .u-image-3 {
+    min-height: 551px;
+  }
+
+  .u-section-1 .u-image-4 {
+    min-height: 551px;
+  }
+
+  .u-section-1 .u-image-5 {
+    min-height: 551px;
+  }
+
+  .u-section-1 .u-image-6 {
+    min-height: 551px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1814px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 347px;
+  }
+
+  .u-section-1 .u-image-2 {
+    min-height: 347px;
+  }
+
+  .u-section-1 .u-image-3 {
+    min-height: 347px;
+  }
+
+  .u-section-1 .u-image-4 {
+    min-height: 347px;
+  }
+
+  .u-section-1 .u-image-5 {
+    min-height: 347px;
+  }
+
+  .u-section-1 .u-image-6 {
+    min-height: 347px;
+  }
+}

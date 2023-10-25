@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+#navbar{
+    position: fixed;
+    width: 100%;
+  }
+  #navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10%;
+    margin-top: 1px;
+  }
+  #navbar li{
+    list-style: none;
+    padding: 3px 11px;
+    font-family: 'Yeon Sung', cursive;
+    margin: 6px 10px;
+    font-size: 20px;
+  }
+  #navbar li a{
+    padding: 2px;
+    margin: 2px;
+    color: white;
+    text-decoration: none;
+  }
+  #navbar li a:hover{
+    color: rgb(215, 22, 163);
+    transition: all 0.37s ease-in;
+  }
+  .nav-img img{
+    height: 46px;
+    /* filter: invert(); */
+    margin: 2px;
+  }
+  .btn{
+    width: 11%;
+    margin-left: 1117px;
+    height: 27px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: black;
+    position: fixed;
+    border-radius: 20px;
+    margin-top: 18px;
+  }
+  .btn a{
+    color: white;
+  }
+  body::before{
+    content: "";
+    background:url('../img/adminimg.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+    
+  }
+  h1{
+    margin-top: 16%;
+    font-size: 87px;
+    font-family: sans-serif;
+    margin-right: 0%;
+    color: white;
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+  }
+  

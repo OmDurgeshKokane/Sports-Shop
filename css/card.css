@@ -1,0 +1,70 @@
+#navbar{
+    /* position: fixed; */
+    width: 117%;
+  }
+  #navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -19%;
+    margin-bottom: 35px;
+  }
+  #navbar li{
+    list-style: none;
+    padding: 3px 11px;
+    font-family: 'Yeon Sung', cursive;
+    margin: 6px 10px;
+    font-size: 20px;
+  }
+  #navbar li a{
+    padding: 2px;
+    margin: 2px;
+    color: black;
+    text-decoration: none;
+  }
+  #navbar li a:hover{
+    color: rgb(215, 22, 163);
+    transition: all 0.37s ease-in;
+  }
+  .nav-img img{
+    height: 46px;
+    /* filter: invert(); */
+    margin: 2px;
+  }
+  #btn{
+    width: 11%;
+    margin-left: 1145px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: black;
+    position: fixed;
+    border-radius: 20px;
+    margin-top: -70px;
+    position: sticky;
+  }
+  #btn a{
+      color: white;
+      text-decoration: none;
+  }
+  #removebtn{
+      color: white;
+      background-color: red;
+      font-weight: bold;
+  }
+  body::before{
+    content: "";
+    background:url('../img/cardimg.jpg') no-repeat center center/cover;
+    height: 113%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+    
+  }
+  #heading{
+      background-color: rgb(54, 51, 51);
+      color: white;
+  }
